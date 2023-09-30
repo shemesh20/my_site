@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: silver;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0 16px;
+}
+
+.container{
+max-width: 900px;
+margin: 0 auto;
+}
+
+header .container{
+     padding: 8px;
+     display: flex;
+     align-items: center;
+
+}
+
+header h2{
+    margin-right: 20px;
+    color: gold;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav a:hover{
+  color: red;
+}
+header{
+    min-height: 40px;
+    background: black;
+    color: white;
+}
+
+.strip{
+    min-height: 150px; 
+    background: skyblue;
+    color: blue;
+}
+
+main{
+    min-height: 200px;
+    background: black;
+    color: white;
+}
+
+footer{
+    min-height: 40px;
+    background: gray;
+    color: white;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .boxtop{
+    width: 33.3333%;
+    border: 3px white solid;
+    min-height: 100px;
+    background: orange;
+}
+
+main .boxbottom{
+    width: 48%;
+    border: 3px gold solid;
+    min-height: 100px;
+    background: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
